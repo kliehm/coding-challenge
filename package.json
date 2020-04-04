@@ -1,0 +1,50 @@
+{
+  "name": "coding-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "cross-env eslint --fix './src/**/*.{js,jsx}'",
+    "lint:no-fix": "cross-env eslint --no-fix './src/**/*.{js,jsx}'",
+    "stylelint": "cross-env stylelint './src/**/*.{css,scss}' './src/styles/**/*.{css,scss}' --fix",
+    "stylelint:no-fix": "cross-env stylelint './src/**/*.{css,scss}' './src/styles/**/*.{css,scss}'",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "what-input": "^5.2.7"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-react": "^7.19.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "stylelint": "^13.3.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-declaration-strict-value": "^1.1.8",
+    "stylelint-high-performance-animation": "^1.5.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.16.0",
+    "stylelint-selector-bem-pattern": "^2.1.0",
+    "typescript": "^3.8.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
