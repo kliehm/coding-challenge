@@ -61,7 +61,8 @@
           "currentColor",
           "inherit",
           "transparent"
-        ]
+        ],
+        "disableFix": true
       }
     ],
     "font-family-no-missing-generic-family-keyword": null,
